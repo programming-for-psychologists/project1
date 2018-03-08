@@ -30,7 +30,7 @@ def importTrialsWithHeader(trialsFilename, colNames=None, separator=',', header=
 	if header:
 		return (colNames, trialsList)
 	else:
-		return trialList
+		return trialsList
 
 def printHeader(header,headerFile='header.txt',separator="\t", overwrite=False):
 	if overwrite or (not overwrite and not os.path.isfile(headerFile)):
