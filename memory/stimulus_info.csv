@@ -1,10 +1,10 @@
 category1,category2,relationship
-bat_animal,bat_sport,homonym
-palm_tree,palm_hand,homonym
-seal_object,seal_animal,homonym
-trunk_car,trunk_elephant,homonym
-glasses_eye,glasses_drink,homonym
-mouse_comp,mouse_squeak,homonym
+bat-animal,bat-sport,homonym
+palm-tree,palm-hand,homonym
+seal-object,seal-animal,homonym
+trunk-car,trunk-elephant,homonym
+glasses-eye,glasses-drink,homonym
+mouse-comp,mouse-squeak,homonym
 flower,flour,homophone
 tee,tea,homophone
 bear,hair,nonOrthoRhyme

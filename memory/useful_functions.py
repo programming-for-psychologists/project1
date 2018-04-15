@@ -82,12 +82,12 @@ def getRunTimeVars(varsToGet,order,expName):
 	else: print 'User Cancelled'
 
 def openOutputFile(subjCode,suffix):
-	if  os.path.isfile(subjCode+'_'+suffix+'.txt'):
+	if  os.path.isfile(subjCode+'_'+suffix):
 		popupError('Error: That subject code already exists')
 		return False
 	else:
 		try:
-			outputFile = open(subjCode+'_'+suffix+'.txt','w')
+			outputFile = open(subjCode+'_'+suffix,'w')
 		except:
 			print 'could not open file for writing'
 		return outputFile
